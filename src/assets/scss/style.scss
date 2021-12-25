@@ -15,7 +15,7 @@
   justify-content: space-between;
   align-items: center;
   position: relative;
-  padding: 30px 20px;
+  padding: 15px 20px;
 }
 .site-navigation {
   ul {
@@ -39,7 +39,7 @@
   }
   .menu-trigger {
     display: none;
-    font-size: 24px;
+    font-size: 14px;
     background: none;
     border: none;
     color: white;
@@ -102,20 +102,20 @@
     }
   }
   @media (max-width: $breakpoint-lg) {
-    font-size: 20px;
+    font-size: 14px;
   }
 }
 .home-banner {
   padding: 60px 0;
   align-items: center;
   .title {
-    font-size: 48px;
+    font-size: 40px;
     line-height: 48px;
     margin: 0 0 5px;
     font-weight: 900;
   }
   .description {
-    font-size: 20px;
+    font-size: 14px;
     line-height: 1.4;
     margin-bottom: 30px;
   }
@@ -163,7 +163,7 @@
   }
   .title {
     margin: 0 0 3px;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 600;
     // a {
     // 	color: var(--post-link-color);
@@ -208,7 +208,7 @@
     font-weight: 600;
   }
   time {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 @media (max-width: $breakpoint-sm) {
@@ -238,11 +238,11 @@ article img {
   max-width: 100%;
 }
 .blog-post-content {
-  max-width: 70ch;
+  max-width: 85ch;
   margin: 0 auto;
   padding: 20px;
   line-height: 1.5;
-  font-size: 20px;
+  font-size: 14px;
 }
 
 .blog-post {
@@ -264,7 +264,7 @@ article img {
   text-decoration: none;
   appearance: none;
   border: none;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1;
   transition: background 0.3s linear;
   &.-outline {
@@ -340,7 +340,7 @@ article img {
   align-items: center;
   background: #eee;
   text-align: center;
-  font-size: 14px;
+  font-size: 12px;
   padding: 20px 0;
   p {
     margin: 0;
@@ -398,7 +398,7 @@ article img {
     }
     a {
       font-weight: normal;
-      font-size: 16px;
+      font-size: 14px;
       padding: 0;
     }
     .page-title {
